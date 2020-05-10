@@ -27,7 +27,7 @@ var cancelButton = document.getElementById('clear');
 
 uploadButton.addEventListener('click', function (event) {
     if (signaturePad.isEmpty()) {
-        palm_rest_text.style.color = "red";
+        palm_rest_text.style.color = "#f03030";
         palm_rest_text.style.opacity = "1";
         palm_rest_text.innerHTML = "PLEASE FILL IN ALL FIELDS AND SIGN ABOVE";
         event.preventDefault();
